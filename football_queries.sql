@@ -15,7 +15,7 @@
 -- 4) Find the division code for the Bundesliga. Use that code to find out how many matches Freiburg have played in the Bundesliga since the data started being collected.
 
 --SELECT code FROM divisions WHERE name = 'Bundesliga';
---SELECT * FROM matches WHERE division_code = 'D1';
+--SELECT * FROM matches WHERE division_code = 'D1' AND (hometeam = 'Freiburg' OR awayteam = 'Freiburg')
 
 -- 5) Find the unique names of the teams which include the word "City" in their name (as entered in the database)
 
